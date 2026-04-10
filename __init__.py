@@ -1,2 +1,1 @@
-from .config import AgentConfig, AgentToolsConfig, SelfConsistencyConfig
-from .orchestrator import SurgicalAgent
+__version__ = '0.1.0'
