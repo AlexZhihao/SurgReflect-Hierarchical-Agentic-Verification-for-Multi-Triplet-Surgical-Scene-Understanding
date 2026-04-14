@@ -336,3 +336,8 @@ agent/
 ## License
 
 Please refer to the [Cholec80](http://camma.u-strasbg.fr/datasets) and [CholecT50](https://github.com/CAMMA-public/cholect50) dataset licenses for data usage terms.
+
+
+## References
+
+- [SurAgent (Related Project)](https://github.com/GeorgeHuLite/SurAgent)
