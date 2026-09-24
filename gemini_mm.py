@@ -23,7 +23,7 @@ def call_gemini_multimodal(
     google.generativeai SDK.
 
     Args:
-        model: Gemini model name (e.g., "gemini-2.5-pro")
+        model: Gemini model name (e.g., "gemini-3.7-flash")
         prompt: Text prompt
         image_data_urls: List of base64 data URLs for images
         api_key: Google/Gemini API key
