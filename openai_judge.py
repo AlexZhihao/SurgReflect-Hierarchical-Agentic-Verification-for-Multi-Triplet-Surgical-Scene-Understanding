@@ -16,7 +16,7 @@ class OpenAIJudge:
 
     Drop-in replacement for GeminiJudge — same `score()` / `score_once()` API.
     """
-    model: str = "gpt-5.2"
+    model: str = "gpt-5.6"
     api_key: Optional[str] = None
     base_url: Optional[str] = None
     sleep_sec: float = 0.6
