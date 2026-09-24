@@ -132,9 +132,9 @@ The framework supports **three multimodal LLM backends**, automatically dispatch
 
 | Backend | Detection Logic | Supported Models (examples) |
 |---|---|---|
-| **OpenAI-compatible** (default) | Any model string not matching below | `gpt-4o`, `gpt-4.1`, `gpt-5`, `o3`, or any OpenAI-compatible endpoint |
-| **Anthropic Claude** | `"claude"` in model name | `claude-sonnet-4-20250514`, `claude-4-opus-...` |
-| **Google Gemini** | `"gemini"` in model name | `gemini-2.5-pro`, `gemini-2.5-flash` |
+| **OpenAI-compatible** (default) | Any model string not matching below | `gpt-5.6`, `gpt-4.1`, `gpt-5`, `o3`, or any OpenAI-compatible endpoint |
+| **Anthropic Claude** | `"claude"` in model name | `claude-sonnet-5`, `claude-opus-...` |
+| **Google Gemini** | `"gemini"` in model name | `gemini-3.8-flash`, `gemini-3.7-flash` |
 
 ### OpenAI-compatible Endpoints
 
