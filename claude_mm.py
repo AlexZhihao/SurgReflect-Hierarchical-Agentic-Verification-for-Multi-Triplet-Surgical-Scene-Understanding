@@ -20,7 +20,7 @@ def call_claude_multimodal(
     Call Claude (Anthropic) API with multimodal input (text + multiple images).
     
     Args:
-        model: Claude model name (e.g., "claude-opus-4-6")
+        model: Claude model name (e.g., "claude-opus-5")
         prompt: Text prompt
         image_data_urls: List of base64 data URLs for images
         api_key: Anthropic API key
