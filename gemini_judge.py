@@ -79,7 +79,7 @@ def _build_prompt(report_text: str, meta: Optional[Dict[str, Any]] = None) -> st
 
 @dataclass
 class GeminiJudge:
-    model: str = "gemini-2.5-pro"
+    model: str = "gemini-3.7-flash"
     api_key: Optional[str] = None
     sleep_sec: float = 0.6
     retries: int = 3
